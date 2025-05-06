@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iheart</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            background-color:black;
+            color: white;
+            padding: 30px 0px;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3rem;
+        }
+        span{
+            color: Red;
+            font-size: 4rem;
+        }
+        nav{
+            background-color: red;
+            padding:10px 0px ;
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav ul li{
+            display: inline;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 150px;
+            font-size: 1.5rem;
+        }
+        a:hover{
+            font-weight:bold;
+            color: black;
+        }
+        div{
+            background-color: grey;
+        }
+        div.container{
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(5,250px);
+            gap:40px;
+        }
+        .container>.image{
+            padding: 20px;
+            border-radius: 10px;
+            background-color: black;
+        }
+        .image img{
+            width:100%;
+        }
+        img:hover{
+            scale: 3rem;
+            border-radius: 50px;
+        }
+        p{
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin: 10px;
+        }
+        button{
+            width: 100%;
+            border-radius: 10px;
+            background-color: red;
+            margin-top: 20px;
+            padding: 5px;
+        }
+        button:hover{
+            background-color: white;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>I</span>heart
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="">Album</a></li>
+            <li><a href="">Song</a></li>
+            <li><a href="">More</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="image">
+            <img src="https://static.toiimg.com/photo/80265855.cms?imgsize=35141" alt="">
+            <p>RED</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/90/Animal_%282023_film%29_poster.jpg" alt="">
+            <p>Animal</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://npr.brightspotcdn.com/dims4/default/e179dcb/2147483647/strip/true/crop/1000x1000+0+0/resize/880x880!/quality/90/?url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2012%2F03%2F22%2F1d_cd-cover_custom-afceb2b33b277ace0e8c92a0d65d409550bdcb24.jpg" alt="">
+            <p>One Direction</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Bad_English_%28album%29.jpg" alt="">
+            <p>Bad English</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjllNTdiM2QtYjQ0Ni00ZGM1LWFlYmUtNWY0YjMzYWIxOTYxXkEyXkFqcGc@._V1_.jpg" alt="">
+            <p>Pushpa 2</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://preview.redd.it/20-years-of-anand-movie-v0-ckkhkqeonwud1.png?width=1587&format=png&auto=webp&s=188d0757eaa0e0e7c78bf913f773d44aee88b2b3" alt="">
+            <p>Anand</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sir-et00340527-1663587263.jpg" alt="">
+            <p>Sir</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://play-lh.googleusercontent.com/BZWwc2GNIVzo72eIB8bd0etjCoKKZ2Gl_850Zz4wqKyr1qADURTy2CjQmZcWbpEWoz5B" alt="">
+            <p>YJHYD </p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTBiNDVkOWQtMGZhMC00MDA0LWI4ZjUtMWE3YjRmMDc3NzBjXkEyXkFqcGc@._V1_.jpg" alt="">
+            <p>MAD</p>
+            <button>Play</button>
+        </div>
+        <div class="image">
+            <img src="https://images.news18.com/webstories/uploads/2024/07/1-2024-07-c8114eef332d804f8cea93b2ab9454b3.png" alt="">
+            <p>Bahubali</p>
+            <button>Play</button>
+        </div>
+    </div>
+</body>
+</html>
